@@ -1,0 +1,61 @@
+body{
+	padding-bottom: 90px;
+	padding-top: 110px;
+}
+.logo{
+	max-width: 100px;
+}
+.carousel{
+	max-width: 900px;
+	margin : auto;
+}
+.container-perso{
+	max-width: 250px;
+	margin: auto; 	
+}
+.cards {
+  padding: 15px 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards {
+  padding: 15px 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-element {
+  width: 20%;
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 600px){
+	.cards{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    }
+
+  .card-element{
+    width: 93%;
+    margin-bottom: 12px;
+    margin-left: 4%;
+  }
+
+}
